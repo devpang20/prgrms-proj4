@@ -1,7 +1,7 @@
 function ListPage() {
     return ( 
         <>
-            <h1>작성 페이지</h1>
+            <h1>리스트 페이지</h1>
         </>
      );
 }
