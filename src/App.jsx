@@ -1,7 +1,11 @@
+import ListPage from "./pages/ListPage"
+import WritePage from "./pages/WritePage"
+
 function App() {
   return (
     <>
-      Hello world!!!  
+      <ListPage />
+      <WritePage />
     </>
   )
 }
