@@ -1,7 +1,7 @@
 function WritePage() {
     return (  
         <>
-            <h1></h1>
+            <h1>작성페이지</h1>
         </> 
     );
 }
