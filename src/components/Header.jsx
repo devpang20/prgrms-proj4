@@ -4,36 +4,36 @@ import { NavLink } from "react-router-dom";
 function Header() {
     return ( 
         <>
-            <header className="flex">
+            <header className="flex flex-shrink-0">
                 <NavLink 
                     to="/"
                     className="mr-auto p-3 font-bold hover:text-red-500 cursor-pointer"
                 >
-                    로고
+                    RC
                 </NavLink>
-                <ul>
+                <ul className="flex">
                     <li>
                         <NavLink
-                            to="/list"
+                            to="/main"
                             className={({ isActive }) => classNames(
                                 `block p-3 font-bold hover:text-red-500 cursor-pointer`,
                                 {"text-red-500": isActive}
                                 ) 
                             }
                         >
-                            리스트
+                            메인
                         </NavLink>
                     </li>
                     <li>
                         <NavLink 
-                            to="/write"
+                            to="/history"
                             className={({ isActive }) => classNames(
                                 `block p-3 font-bold hover:text-red-500 cursor-pointer`,
                                 {"text-red-500": isActive}
                                 ) 
                             }
                         >
-                            작성
+                            히스토리
                         </NavLink>
                     </li>
                 </ul>
