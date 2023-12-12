@@ -13,5 +13,11 @@
 - [x] 페이지 레이아웃 1차 구현
 - [x] 운동 횟수(ex 스쿼트 횟수) 1차 구현
 - [x] 기록 입력 폼 1차 구현
+
+## 3주차
 - [x] canvas-confetti 도입
-- [ ] canvas-confetti 작업
+- [x] MUI 적용
+- [x] 메인 작업, 모달 작업 1차
+
+## 4주차
+- [x] CountNumber, RecordModal, hooks 작업

@@ -5,15 +5,16 @@ function Root() {
 
     const theme = createTheme({
         typography: {
-            fontFamily: ["GmarketSansMedium"]
+          fontFamily: ["GmarketSansMedium"],
         },
+        // 앱 테마
         palette: {
-            primary: {
-                main: "#FF8686",
-                contrastText: "#ffffff",
-            }
-        }
-    })
+          primary: {
+            main: "#FF8686",
+            contrastText: "#ffffff",
+          },
+        },
+    });
 
     return (
         <>
