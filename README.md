@@ -21,3 +21,4 @@
 
 ## 4주차
 - [x] CountNumber, RecordModal, hooks 작업
+- [x] 네비 변경
